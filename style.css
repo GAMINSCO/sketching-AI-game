@@ -1,0 +1,109 @@
+body {
+    font-family: monospace;
+    background-image: linear-gradient(to right, 
+    #fbf8cc,
+    #fde4cf, 
+    #ffcfd2, 
+    #f1c0e8, 
+    #cfbaf0, 
+    #a3c4f3, 
+    #90dbf4, 
+    #8eecf5, 
+    #98f5e1, 
+    #b9fbc0);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px rgb(63, 63, 63);
+    margin-left: 550px;
+    letter-spacing: 2px;
+}
+
+.cata {
+    margin-left: 400px;
+    width: 20% !important;
+    height: 40px !important;
+    border-radius: 10px !important;
+    border-color: black !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    font-size: 24px !important;
+    font-weight: 200 !important;
+    background-color: rgba(143, 143, 143, 0);
+}
+.cata:hover {
+    border-width: 2px !important;
+    border-style: dashed !important;
+    font-weight: 600 !important;
+    background-color: rgba(143, 143, 143, 0.377);
+}
+
+#CC {
+    width: 20% ;
+    height: 40px ;
+    border-radius: 10px ;
+    border-color: black ;
+    border-width: 1px ;
+    border-style: solid ;
+    font-size: 24px ;
+    font-weight: 200 ;
+    background-color: rgb(204, 52, 52);
+    margin-top: 30px;
+}
+#CC:hover {
+    border-width: 2px ;
+    border-style: dashed ;
+    font-weight: 600 ;
+    background-color: rgb(207, 18, 18);
+}
+
+#stat_div {
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+    width: 25%;
+    height: 80px;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border-radius: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+#next_sketch {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#Score {
+    float: left;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#Timer {
+    float: right;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 80px;
+}
+
+#label {
+    margin-top: 20px !important;
+    margin-left: 20px;
+}
+
+#confidence {
+    margin-top: 20px !important;
+    margin-left: 20px;
+}
