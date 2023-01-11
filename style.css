@@ -14,6 +14,7 @@ body {
 }
 
 h1 {
+    font-family: 'Special Elite', fantasy;
     font-size: 36px;
     font-weight: bolder;
     text-shadow: 1px 1px 3px rgb(63, 63, 63);
@@ -72,16 +73,10 @@ h1 {
     margin-bottom: 20px;
 }
 
-canvas {
-    border-radius: 15px;
-    border-color: black;
-    border-width: 2px;
-    border-style: dashed;
-}
-
 #next_sketch {
     font-size: 28px;
     font-weight: 800;
+    margin-left: 160px !important;
 }
 
 #Score {
@@ -107,3 +102,28 @@ canvas {
     margin-top: 20px !important;
     margin-left: 20px;
 }
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas {
+
+  0% {box-shadow: 1px 1px 38px grey;}
+  50% {box-shadow: 1px 1px 38px white;}
+  100% {box-shadow: 1px 1px 38px grey;}
+}
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
